@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1502877338535-766e1452684a') center/cover no-repeat;
+  height: 90vh;
+}
+
+.card img {
+  height: 240px;
+  object-fit: cover;
+  width: 100%;
+}
+
+footer {
+  font-size: 14px;
+}
+.filter-btn {
+  min-width: 110px;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.list-group-item {
+  font-size: 16px;
+}
+
+.rounded {
+  border-radius: 12px !important;
+}
+form .form-control {
+  border-radius: 8px;
+}
+
+#loginMessage,
+#registerMessage {
+  font-weight: bold;
+}
+.form-select,
+.form-control {
+  padding: 10px;
+}
+
+#bookingMessage {
+  font-weight: bold;
+}
+textarea.form-control {
+  resize: none;
+}
+.page-content {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.page-content.show {
+  opacity: 1;
+}
